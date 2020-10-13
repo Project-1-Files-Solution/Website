@@ -1,0 +1,277 @@
+/* CSS Document */
+
+* {padding:0px ; margin:0px ; border:0px ;}
+
+/* Background Images */
+body {
+	background-image:url(../images/bg.jpg);
+	}
+
+/* Body Content */
+#Tophead {
+	margin: 10px auto; 
+	background-color:transparent;
+	width: 950px;
+	}
+.Tophead {
+	width: 900px;
+	margin: 0 auto;
+	}
+
+/* Logo*/
+#logo	{
+	float:left; 
+	padding-left:40px;
+	padding-top:10px; 
+	margin-bottom:20px; 
+	}
+
+
+/* Footer Links*/	
+#social {
+	float:right;
+	text-align:right;
+	font-family:Century-Gothic, sans-serif; 
+	font-size:14px; 
+	font-weight:bold;
+	}					
+#social ul li {
+	display:inline; 
+	padding-right:8px;
+	}
+
+
+/* For Images*/
+#img	li	{
+	display:inline;
+	padding-left:39px;
+	}						
+#img img {
+	transition:transform 0.3s;
+	}						
+#img img:hover	{
+	transform:scale(1.1);
+	}						
+#A1:hover {
+	opacity:0.7;
+	}
+
+#main {
+	padding:0 10px 0 0; 
+	font-family:Century-Gothic, sans-serif; 
+	background-color: #FFF; 
+	}						
+#gallery li	{
+	display:inline; 
+	padding-right:25px;
+	}						
+#gallery ul a:hover {
+	opacity:0.7
+	}
+
+/* Navigation*/
+#navigation	{
+	clear:both; font-family:'Century Gothic', sans-serif;
+	font-size:16px; 
+	font-weight:bold; 
+	border-top:solid 1px; 
+	border-bottom: solid 1px; 
+	padding: 0 0 45px 0; 
+	color:#000;
+	}
+ 
+#navigation li 	{ 
+	float: left; 
+	display: block; 
+	background-color:transparent; 
+	position: relative; 
+	z-index: 999; 
+	margin: 0 1px; 
+	}
+ 
+#navigation li a { 
+	display: block; 
+	font-weight: bold; 
+	line-height: 50px; 
+	text-decoration: none;  
+	color: #000; 
+	padding: 0px 12px; 
+	}
+
+#navigation li a:hover 	{ 
+	background-color: #fff; 
+	color:skyblue; 
+	}
+
+#navigation ul	{ 
+	position: absolute; 
+	left: 1px; 
+	display: none; 
+	margin: 0; 
+	padding-bottom: 3px; 
+	}	
+
+#navigation ul li { 
+	width: 180px; 
+	float: left; 
+	text-align: left; 
+	background-color:#fff; 
+	}				
+
+
+/* Heading*/
+h1 { 
+	padding: 55px 0 0 225px;
+	font-family: Edwardian Script ITC; 
+	font-size: 50px; 
+	} 
+
+h2 {
+	color:white;
+	font-size:25px; 
+	padding-bottom:15px; 
+	text-shadow: 5px 5px 5px #999;
+	}	
+
+/* Side Images*/
+#sidebar {
+	float:right; 
+	padding: 0px 10px 0px 0px;
+	}
+#sidecontent {
+	width: 655px;
+	}
+#sidecontent1 {
+	width: 705px; 
+	}
+#sidecontent1 {
+	width: 705px; 
+	}
+
+/* Body Content*/
+#body {
+	padding:10px 0 0 15px; 
+	width:920px; 
+	float:left;
+	}						
+#body h2 {
+	font-size:25px; 
+	padding-top:10px; 
+	padding-bottom:5px;
+	}	
+
+p 	{
+	color:white;
+	font-family:Corbel,sans-serif; 
+	font-size:17.33px; 
+	line-height:135%;
+	}							
+#content {
+	padding:20px 0 0 15px; 
+	width:920px; 
+	float:left;
+	}						
+#content p {
+	font-family: Corbel,sans-serif; 
+	font-size:21.33px;
+	line-height:125%; 
+	padding-top:20px;
+	}
+
+
+/* Footer*/
+#footer	{
+	margin: 0px auto; 
+	background:transparent;
+	}						
+#footer	{
+	clear:both; 
+	text-align:center; 
+	font-family:Century Gothic, sans-serif; 
+	font-size:17.33px; 
+	color:#FFFFFF;
+	padding:15px 15px 30px 15px; 
+	width:920px;
+	}
+
+/* Contact Form*/
+#CONTACTFORM {
+	padding:25px 0 0 15px; 
+	width:565px; 
+	float:left;
+	}						
+#form h2 {
+	font-family:century-gothic, sans-serif;
+	font-size:17pt;
+	}					
+#form {
+	list-style-type:none; 
+	}
+
+#form li {
+	float:left; 
+	display:inline-block;
+	}						
+#form li.c1	{
+	padding-right:55px;
+	}
+
+#contactform{
+	font-family: corbel,sans-serif; 
+	font-size:13pt; 
+	font-weight:bold; 
+	width:270px;
+	}						
+#contactform ol { 
+	list-style-type:none;
+	width:270px;
+	}
+#contactform ol input {
+	display:block; 
+	border:solid 2px; 
+	margin-bottom:10px; 
+	width:250px;
+	height:25px;
+	}
+#contactform ol textarea {
+	display:block;
+	border:solid 2px; 
+	width:250px; 
+	height:110px; 
+	margin-bottom:15px;
+	resize:vertical;
+	}
+label {
+	width:210px;
+	}
+
+.submit {
+	border:none; 
+	border-radius:4px; 
+	padding:12px 20px; 
+	margin-bottom:10px; 
+	width:80px; 
+	background-color:#4CAF50;
+	cursor:pointer;
+	}
+.submit:hover {
+	background-color:#45a049; 
+	}
+	
+/* For Bullet point*/
+.custom	{
+	padding-left:25px;
+	}
+ul.custom li, ol.custom li {
+	color:white;
+	margin-top: 10px !important; 
+	font-size:17.33px; 
+	font-family:Corbel,sans-serif;
+	}
+ul.custom >:last-child {
+	color:white;
+	padding-bottom: 10px !important;}						
+
+
+
+
